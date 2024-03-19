@@ -12,7 +12,6 @@ Feature: User Module test scripts
     Then verify user is deleted successful
     And User logouts from the application
 
-
   @Regression002
   Scenario Outline: Verify create and delete user functionality2
     Given User navigates the "<URL>" URL
